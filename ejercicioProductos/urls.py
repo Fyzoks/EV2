@@ -16,8 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from EV2.views import *
-from productoAPP.views import *
-
 from productosApp.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,9 +23,9 @@ urlpatterns = [
     path("juguetes/",juguetes),
     path("electronica/",electronica),
     path("ropa/",ropa),
-    path("main/",main),
-    path("mazerunner/",maze runner),
-    path("rapidoyfuriosos/",rapidos y furiosos),
-    path("planetadeltesoro/",El planeta del tesoro),
+    path("main/",peliculas),
+    path("mazerunner/",mazerunner),
+    path("rapidoyfuriosos/",rapidosyfuriosos),
+    path("planetadeltesoro/",planetadeltesoro),
 
 ]
