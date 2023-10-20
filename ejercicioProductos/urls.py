@@ -28,6 +28,6 @@ urlpatterns = [
     path("main/",main),
     path("mazerunner/",maze runner),
     path("rapidoyfuriosos/",rapidos y furiosos),
-    path("planetadeltesoro/",)El planeta del tesoro
+    path("planetadeltesoro/",El planeta del tesoro),
 
 ]
