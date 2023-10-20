@@ -18,7 +18,7 @@ def rapidoyfuriosos(request):
         "titulo":"Rapidos y furiosos",
         'Informacion':"Fast & Furious es una franquicia de medios estadounidense centrada en una serie de películas de acción que se ocupan en gran medida de automóviles.",
         'Publicacion':"22 de junio de 2001",
-        'actores':"Vin Diesel, Michelle Rodriguez, Paul Walker"
+        'actores':"Vin Diesel, Michelle Rodriguez, Paul Walker",
         'imagen':'imagenes/rapido.jpg'
        }
     return render(request,'templatesProductos/main.html',data)
@@ -28,7 +28,7 @@ def planetadeltesoro(request):
         "titulo":"El planeta del tesero",
         'Informacion':"Jim Hawkins, un chico rebelde a quien siempre le han apasionado las historias de piratas, compite para encontrar un tesoro en el espacio exterior.",
         'Publicacion':"27 de noviembre de 2002 ",
-        'actores':"Joseph Gordon-Levitt, Martin Short, Brian Murray"
+        'actores':"Joseph Gordon-Levitt, Martin Short, Brian Murray",
         'imagen':'imagenes/tesoro.jpg'
        }
     return render(request,'templatesProductos/main.html',data)

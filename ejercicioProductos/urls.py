@@ -23,9 +23,9 @@ urlpatterns = [
     path("juguetes/",juguetes),
     path("electronica/",electronica),
     path("ropa/",ropa),
-    path("main/",peliculas),
+    path("main/",main),
     path("mazerunner/",mazerunner),
-    path("rapidoyfuriosos/",rapidosyfuriosos),
+    path("rapidoyfuriosos/",rapidoyfuriosos),
     path("planetadeltesoro/",planetadeltesoro),
 
 ]
